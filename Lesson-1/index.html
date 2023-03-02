@@ -11,8 +11,8 @@
 
   <style>
     * {
-      margin: 0;
-      padding: 0;
+      /* margin: 0;
+      padding: 0; */
     }
 
     a {
@@ -27,7 +27,7 @@
 <body>
   <!-- Валидность/Семантика HTML -->
   <!-- Шапка сайта -->
-  <header>
+  <header id="top">
     <Img
       src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1198&q=80"
       alt="Логотип сайта" loading="lazy" title="Логотип сайта" width="500px">
@@ -38,7 +38,7 @@
       </a>
       <a href="#">
         <strong>Книги</strong></a>
-      <a href="#">
+      <a href="./contacts.html">
         <strong>Контакты</strong></a>
     </nav>
   </header>
@@ -56,19 +56,55 @@
       <p>Lsjhfbjs bhfsjfns jsfmsd njs jsnfmjsdnf</p>
       <p>Kkfsnmdfksdkmf ksfk sdf skfksd</p>
     </details>
-    <table border="1px">
-      <th>
-      <td>Продукт</td>
-      <td>Цена</td>
-      <td>Наличие</td>
-      </th>
+    <hr>
+    <table border="1px" style="width: 500px">
+      <tr>
+        <th>Продукт</th>
+        <th>Цена</th>
+        <th>Наличие</th>
+      </tr>
       <tr>
         <td>Гарри Поттер</td>
         <td>150 сом</td>
         <td>есть</td>
       </tr>
+      <tr>
+        <td>Шерлок Холмс</td>
+        <td>200 сом</td>
+        <td>продано</td>
+      </tr>
+      <tr>
+        <td>Война и мир</td>
+        <td>250 сом</td>
+        <td>есть</td>
+      </tr>
     </table>
+    <hr>
 
+    <section>
+      <h3>Отзывы</h3>
+
+      <!--Список-->
+      <ul type="square">
+        <li>Круто 🔥</li>
+        <li>Like 👍</li>
+        <li>Супер 🚙</li>
+      </ul>
+      <hr>
+      <ol type="A">
+        <li>
+          <address>ул. Московская дом 12</address>
+        </li>
+        <li>
+          <address>ул. Боконбаева дом 27</address>
+        </li>
+        <li>
+          <address>ул. Токтогула дом </address>
+        </li>
+      </ol>
+      <hr>
+    </section>
+    <a href="#top">На вверх 🆙</a>
   </main>
   <!-- Подвал сайта -->
   <footer></footer>
